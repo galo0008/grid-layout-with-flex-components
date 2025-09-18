@@ -39,4 +39,10 @@ body {
     "card3 card4";
   }
 
+  .emoji {
+
+display: flex;
+ flex-direction: column;
+
+     } 
   
