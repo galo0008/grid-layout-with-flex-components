@@ -17,6 +17,8 @@ body {
 .emoji h2 {
   margin: 0;
   border-bottom: 2px solid #ccc;
+  /* text-align: left; make all my h2 left */
+  width: 100%;
 }
 
 .emoji a {
@@ -37,12 +39,22 @@ body {
     grid-template-areas:
     "card1 card2"
     "card3 card4";
+    gap: 1rem;
   }
 
-  .emoji {
+.emoji {
 
 display: flex;
  flex-direction: column;
+ align-items: center;
 
      } 
   
+.icon {
+    order: -1; 
+  
+  }
+
+a{
+  margin-top: auto;
+}
